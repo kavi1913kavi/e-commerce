@@ -1,0 +1,119 @@
+@import '../../App.scss';
+.top-to-btm{
+    position: relative;
+  }
+  .icon-position{
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    z-index: 20;
+  }
+  .icon-style{
+    background-color: $RedColor;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    cursor: pointer;
+    animation: movebtn 3s ease-in-out infinite;
+    transition: all .5s ease-in-out;
+  }
+  .icon-positionMessage{
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    z-index: 20;
+  }
+  .icon-styleMessage{
+    background-color: $RedColor;
+    border: 2px solid #fff;
+    height: 50px;
+    border-radius: 50%;
+    width: 50px;
+    color: #fff;
+    cursor: pointer;
+    animation: movebtn 3s ease-in-out infinite;
+    transition: all .5s ease-in-out;
+  }
+  .icon-style:hover{
+    animation: none;
+    background: #fff;
+    color: $RedColor;
+    border: 2px solid $RedColor;
+  }
+  .icon-styleMessage:hover{
+    animation: none;
+    background: #fff;
+    color: $RedColor;
+    border: 2px solid $RedColor;
+  }
+  @keyframes movebtn {
+    0%{
+      transform: translateY(0px);
+    }
+    25%{
+      transform: translateY(20px);
+    }
+    50%{
+      transform: translateY(0px);
+    }
+    75%{
+      transform: translateY(-20px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+  }
+
+
+  #progressBarContainer {
+    position: fixed;
+    z-index: 10;
+    background: rgba(255,255,255,0.05);
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+  
+  
+#progressBar {
+    background: linear-gradient(to left,$RedColor,$RedColor);
+    transform-origin: top left;
+    transform: scale(0,0);
+    opacity: 0;
+}
+
+#progressBarContainer,
+#progressBar {
+    height: 10px;
+}
+.shareButton{
+  margin-bottom: 6rem;
+  font-size: 25px;
+  text-align: center;
+}
+.messageButton{
+  margin-bottom: 12rem;
+  text-align: center;
+  font-size: 20px !important;
+}
+.modal-content{
+  width: 90% !important;
+}
+.modalmainContent{
+  text-align: -webkit-center;
+}
+@media only screen and (max-width: 999px) {
+  .icon-styleMessage{
+    height: 40px;
+    width: 40px;
+  }
+  .icon-style{
+    height: 40px;
+    width: 40px;
+  }
+  .shareButton{
+    padding: 0px 5px 0px 5px;
+  }
+}

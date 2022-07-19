@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
+.form-style input{
+    height: 40px;
+    border: 1px solid #9e9e9e;
+    border-radius: 10px;
+    margin: auto;
+}
+.inputBox{
+    width: 85%;
+    height: 50px;
+    border: none;
+    }
+.sideline {
+display: flex;
+width: 100%;
+justify-content: center;
+align-items: center;
+text-align: center;
+color:#ccc;
+}
+button{
+height:50px;	
+}
+    .sideline:before,
+    .sideline:after {
+        content: '';
+        border-top: 1px solid #ebebeb;
+        margin: 0 20px 0 0;
+        flex: 1 0 20px;
+    }
+    
+    .sideline:after {
+        margin: 0 0 0 20px;
+    }
+    .signup-text{
+        color:red;
+        text-decoration: none;
+    }
+    .signup-text:hover{
+        color: blue;
+    }
+    .errorMesg{
+        font-size: 18px;
+    color: red;
+    font-family: 'Markazi Text', serif;
+    text-align: center;
+    }
+    .error-msg{
+        font-size: 20px;
+        height: 35px;
+    }
+    .logoreg{
+        height: 750px;
+        width: 100%;
+    }
+      .Toastify__toast-theme--colored.Toastify__toast--error {
+        color: white;
+        background-color: red;
+      }
+.welcome{
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    color: red;
+    font-size: 30px;
+}
+.loginLabel{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+@media only screen and (max-width: 995px) {
+
+  .wrapper {
+    width: 95% !important;
+    height: 80vh !important;
+}
+  .watch-strap .strap-circle {
+    height: 409px !important;
+    width: 371px !important;
+}
+
+
+.watch-case {
+    height: 350px !important ;
+    width: 300px !important;
+}
+
+.watch-strap .strap-circle {
+    height: 370px !important;
+    width: 320px !important;
+}
+
+.watch-lace {
+    right: -59px !important;
+}
+
+.watch-strap .strap {
+    height: 480px !important;
+    width: 210px !important;
+}
+.registerMainCon{
+    width: 100% !important;
+}
+}
+
+.loginSubBtn{
+    width: 30%;
+    height: 40px;
+    margin: auto;
+    display: block;
+}
+.loginDivPadd{
+    padding: 40px;
+}
+    .loginDivPadd{
+        padding: 40px;
+        box-shadow: 0 -1px 78px rgba(189, 189, 189, 0.6)  ; 
+	-webkit-box-shadow: 0 -1px 78px rgba(189, 189, 189, 0.6)  ; 
+	-moz-box-shadow: 0 -1px 78px rgba(189, 189, 189, 0.6)  ; 
+    border-radius: 50px;
+    }
+.registreRoleximg{
+    width: 90%;
+    margin-top: -5rem;
+}
+.registerMainCon{
+    width: 70%;
+}
+.divShadow{
+    box-shadow: 0 -1px 78px rgba(189, 189, 189, 0.6)  ; 
+	-webkit-box-shadow: 0 -1px 78px rgba(189, 189, 189, 0.6)  ; 
+	-moz-box-shadow: 0 -1px 78px rgba(189, 189, 189, 0.6)  ; 
+    border-radius: 50px;
+}
